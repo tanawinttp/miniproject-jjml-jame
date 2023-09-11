@@ -5,6 +5,7 @@ import './index.css'
 import Homeuser from './components/Homeuser.jsx'
 import Login from './components/Login.jsx'
 import Signup from './components/Signup.jsx'
+import Homeadmin from './components/Homeadmin.jsx'
 
 
 import { 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: '/signup',
     element: <Signup />
+  },
+  {
+    path:'/admin',
+    element: <Homeadmin />
   }
  
 ])
